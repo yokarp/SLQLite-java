@@ -20,6 +20,7 @@ public class Ingreso {
 			System.out.println("Ingrese su contaseña:");
 			String clave = teclado.next();
 			
+			
 			//Ingresar
 				}else if(opc==2) {
 					System.out.println("Nombre de usuario:");
