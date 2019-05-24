@@ -23,14 +23,6 @@ public class Conector {
 			System.err.println("No se a podido conectar a la base de datos\n"+ex.getMessage());
 		}
 	}
-
-	/*public void close() {
-		try {
-			connect.close();
-		}catch(SQLException ex) {
-			Logger.getLogger(Conector.class.getName()).log(Level.SEVERE, null,ex);
-		}
-	}*/
 	
 	public void saveUsuario(Usuario usuario) {
 		
