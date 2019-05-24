@@ -10,14 +10,17 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Scanner teclado = new Scanner(System.in);
+		//Scanner teclado = new Scanner(System.in);
 		
 		Verificacion vf = new Verificacion();
-		vf.captcha();
 		Conector con = new Conector();
+		Ingreso ingresoUno = new Ingreso();
+		
+		vf.captcha();
 		con.connect();
-		
-		
+		ingresoUno.Ingresar();
+		/*
+		while(true) {
 		System.out.println("Ingresar 1 **** Registrarse 2");
 		int opc = teclado.nextInt();
 		
@@ -42,9 +45,9 @@ public class Main {
 			System.out.println("!Usuario registrado con exito¡");
 			//Registrar usuario
 		}else System.err.println("Número o caracter invalido");
+		}
 		
-		
-		con.mostrarUsuarios();
+		//con.mostrarUsuarios();*/
 		
 
 	}

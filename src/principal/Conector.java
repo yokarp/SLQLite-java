@@ -24,6 +24,7 @@ public class Conector {
 		}
 	}
 	
+	
 	public void saveUsuario(Usuario usuario) {
 		
 		try {
@@ -52,12 +53,11 @@ public class Conector {
 				System.out.print("Clave: ");
 				System.out.println(result.getString("clave"));
 				
-				System.out.println("===================");
+				System.out.println("==================");
 			}
 		}catch(SQLException ex) {
 			System.err.println(ex.getMessage());
 		}
 	}
-	
 
 }

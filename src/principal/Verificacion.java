@@ -13,7 +13,7 @@ public class Verificacion {
 		
 		Scanner teclado = new Scanner(System.in);
 		
-		System.out.println("Para demostrar que no es robot debe desarrollar el siguiente ejercicio");
+		System.out.println("Para demostrar que no es un robot debe desarrollar el siguiente ejercicio");
 		
 		numeroDos = (int) (Math.random() * 9) + 1;
 		
