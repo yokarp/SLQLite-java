@@ -143,3 +143,13 @@ a.link-unstyled:hover {
 .Navbar__brand-logo{
     margin-right: 0.5rem;
 }
+
+
+.BadgeNew__hero {
+width: 100%;
+padding: 2rem 0;
+background: url(’…/…/images/stars.svg’), #1B1B25;
+background-repeat: repeat;
+margin-bottom: 1rem;
+color: #ffffff;
+}
