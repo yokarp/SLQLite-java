@@ -121,3 +121,25 @@ a.link-unstyled:hover {
 .btn.btn-danger:not(:disabled):not(.disabled):focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 64, 64, 0.5);
 }```
+
+.Navbar{
+    width: 100%;
+    padding: 0.5rem0;
+    background-color: #1C3643;
+}
+
+
+.Navbar__brand{
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar__brand:hover{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.Navbar__brand-logo{
+    margin-right: 0.5rem;
+}
