@@ -1,12 +1,12 @@
-.badge {
+.Badge {
   background: #ffffff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   border-radius: 8px 8px 8px 8px;
   overflow: hidden;
   height: 380px;
 }
 
-.badge_header {
+.Badge__header {
   padding: 0.5rem 0;
   height: 80px;
   background: #1b1b25;
@@ -14,14 +14,14 @@
   justify-content: center;
 }
 
-.badge_section-name {
+.Badge__section-name {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem 0;
 }
 
-.badge_section-info {
+.Badge__section-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,14 +30,14 @@
   background: #f4f4f7;
 }
 
-.badge_avatar {
+.Badge__avatar {
   border-radius: 50%;
   margin-right: 1rem;
   width: 120px;
   height: 120px;
 }
 
-.badge_footer {
+.Badge__footer {
   height: 54px;
   display: flex;
   justify-content: center;
